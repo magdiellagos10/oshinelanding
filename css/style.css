@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,500,600,700');
+body{
+	font-family: 'Cabin', sans-serif;
+	font-size: 14px;
+	color: #212529;
+}
+.header-area.sticky {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+.header-area.sticky .navbar-default{
+	background-color: #884bdf;
+}
+.header-area.sticky .d-none{
+	display: block !important;
+}
+.header-area.sticky .d-block{
+	display: none !important;
+}
+
+header {
+	background-color: #F8F9FA;
+}
+
+#home {
+	background-image: url("../img/Hero-BG.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: #FFFFFF;
+	position: relative;
+	padding: 5px 0;
+}
+
+#home h1 {
+	font-size: 65px;
+	color: #FFFFFF;
+	font-weight: 900;
+	margin-top: 130px;
+	margin-bottom: 50px;
+}
+
+#home p {
+	font-size: 18px;
+	color: #FFFFFF;
+	margin-bottom: 40px;
+}
+
+.btn-light {
+	font-size: 16px;
+	text-transform: uppercase;
+	padding: 10px 22px;
+	color: #528EFF;
+}
+
+#home::before{
+content: "";
+background-color: rgba(106,45,237,0.70);
+position: absolute;
+width: 100%;
+height: 100%;
+top:0;
+}
+
+#home img{
+margin-top: 80px;
+margin-bottom: 15px;
+}
+
+#about{
+font-size: 50px;
+color: #fffffff;
+font-weight: 700;
+margin-right: 80px;
+margin-top: 180px;
+
+}
+#about p{
+font-size: 18px;
+color: #fffffff;
+margin-bottom: 40px;
+margin-right: 90px;
+margin-top: 30px;
+}
+
+#about #morado{
+	background-color: #7B31E3;
+	padding: 50px 0;
+	color: #FFFFFF;
+	position: relative;
+}
+
+#about-morado .titulo{
+	color: #FFFFFF;
+}
+
+#about .row:nth-child(2){
+	margin-top: 50%;
+}
+
+#about-morado .row:nth-child(2){
+	margin-top: 50px;
+}
+
+#features {
+	text-align: center;
+	
+}
+
+.feature {
+	border: solid #000000;
+	border-radius: 12px;
+	padding: 15% 10%;
+	font-size: 16px;
+	color: #878787;
+}
+
+.feature h3 {
+	color: #303132;
+	margin: 20px 0;
+	font-size: 22px;
+	font-weight: 600;
+}
+
+.feature i {
+	color: #272DED;
+	font-size: 26px;
+}
+
+#features .titulo {
+	margin-bottom: 50px;
+}
+
+#features .row:nth-child(2) {
+	margin-bottom: 30px;
+}
+
+#team {
+	text-align: center;
+}
