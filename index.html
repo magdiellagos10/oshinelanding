@@ -19,9 +19,9 @@
 			
 			<nav class="navbar navbar-expand-lg navbar-light bg-light">
 			  
-				<a class="navbar-brand" href="index.html">
-				<img src="img/oshine-min-logo-white.png" class="img-fuid d-block" alt="logotipo">
-					<img src="img/oshine-new-logo-black.png" class="img-fluid d-block" alt="logotipo">
+				<a class="navbar-brand" href="index.html"> 
+					<img src="img/oshine-min-logo-white.png" class="img-fluid d-block" alt="logotipo">
+					<img src="img/oshine-new-logo-black.png" class="img-fluid d-none" alt="logotipo">
 				</a>
 				
 				
@@ -32,45 +32,21 @@
 			  <div class="collapse navbar-collapse" id="navbar">
 				<ul class="navbar-nav mx-auto">
 				  <li class="nav-item active">
-					<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+					<a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
 				  </li>
 				  <li class="nav-item">
-					<a class="nav-link" href="#sec-coaches">About</a>
+					<a class="nav-link" href="#about">About</a>
 				  </li>
 				  <li class="nav-item">
-					<a class="nav-link" href="#">Features</a>
+					<a class="nav-link" href="#features">Features</a>
 				  </li>
 				  <li class="nav-item">
-					<a class="nav-link" href="#">Team</a>
+					<a class="nav-link" href="#team">Team</a>
 				  </li>
 					<li class="nav-item">
-					<a class="nav-link" href="#">Pricing</a>
+					<a class="nav-link" href="#contact">Contact</a>
 				  </li>
-					<li class="nav-item">
-					<a class="nav-link" href="#">Contact</a>
-				  </li>
-				  <li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					  Pages
-					</a>
-					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-					  <a class="dropdown-item" href="#">Action</a>
-					  <a class="dropdown-item" href="#">Another action</a>
-					  <div class="dropdown-divider"></div>
-					  <a class="dropdown-item" href="#">Something else here</a>
-					</div>
-				  </li>
-					<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					  Pages
-					</a>
-					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-					  <a class="dropdown-item" href="#">Action</a>
-					  <a class="dropdown-item" href="#">Another action</a>
-					  <div class="dropdown-divider"></div>
-					  <a class="dropdown-item" href="#">Something else here</a>
-					</div>
-				  </li>
+				  
 				</ul>
 
 				  <ul class="navbar-nav ml-auto">
@@ -234,15 +210,17 @@
 	
 	
 	
-	<section id="team">
+	<section id="team" class="section text-center">
 	<div class="container">
 		
 		<h2 class="titulo">People who make it happen</h2>
 		<p>These guys are the backbone of our company and who bring you the fully immersive app experience.</p>
-			
+		
+		<div class="bg-morado">
+		<div class="container">
 			<div class="row">
 				<article class="col-md-4 col-sm-12">
-				<div class="feature">
+				<div class="team">
 				<img src="img/peter.jpg" class="img-fluid" alt="team-1">
 				<h3>Peter Parker</h3>
 				<p>Developer</p>
@@ -250,7 +228,7 @@
 				</article>
 				
 				<article class="col-md-4 col-sm-12">
-				<div class="feature">
+				<div class="team">
 				<img src="img/lesly.jpg" class="img-fluid" alt="team-2">
 				<h3>Jessica Jones</h3>
 				<p>Marketing & Sales</p>
@@ -258,61 +236,68 @@
 				</article>
 				
 				<article class="col-md-4 col-sm-12">
-				<div class="feature">
+				<div class="team">
 				<img src="img/wade.jpg" class="img-fluid" alt="team-3">
 				<h3>Wade Wilson</h3>
 				<p>Systems Architect</p>
 				</div>
 				</article>
 				
+				</div>
+			</div>
+		</div><!--bg-morado -->
+		</div>
+	</section>
+	
+	
+	
+	<section id="contact">
+		<div class="container">
+			
+			<div class="row">
+			<article class="col-md-6 col-sm-6 col-xs-12">
+			<h2 class="titulo">Get in touch</h2>
+				<p>Do feel free to contact us or just send in your queries in the form to the right and we will respond to you as soon as possible.</p>
+				<p>Phone: <a href="tel:+12345678"></a>+1-123-456-78</p>
+				<p>Email: <a href="mailto:help@example.com">help@example.com</a></p>
+					<ul class="list-inline">
+						<li class="list-inline-item"><a href="#"><i class="fab fa-facebook"></i></a></li>
+						<li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+						<li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+					</ul>
+			</article>
+				
+			<article class="col-md-6 col-sm-6 col-xs-12">
+				<form action="https://gmail.us3.list-manage.com/subscribe/post" method="post">
+					<input type="hidden" name="u" value="d6c599f26f0fef1958a62b1cc">
+   					<input type="hidden" name="id" value="c0e887b376">
+					
+					<div class="row">
+						<div class="form-group col-md-6 col-sm-12">
+							<input type="text" name="b_name" id="b_name" class="form-control" placeholder="Name" required>
+						</div>
+						<div class="form-group col-md-6 col-sm-12">
+							<input type="email" name="b_email" id="b_email" class="form-control" placeholder="Email" required>
+						</div>
+					</div>
+					
+					<div class="form-group">
+						<textarea name="b_comment" id="b_comment" class="form-control" placeholder="Message" rows="10"></textarea>
+					</div>
+					
+					<div class="form-group">
+							<button type="submit" class="btn btn-primary btn-block">Submit</button>
+					</div>
+					
+				</form>
+			</article>
+				
 			</div>
 		
-		<section id="section">
-		<div class="container">
-			<div class="row">
-				<article class="col-md-6 col-sm-6-12">
-				<h2 class="titulo"> Get in Touch </h2>
-					<p> Do feel free to contact us or just send in your queries in the form to the right and we will respond to you as soon as possible </p>
-					<p>100 times square new york,<br> Somewhere in the USA.</p>
-					<p>Phone: <a href="tel:+5042230000">1-123-456-789</a> </p>
-					<p> Email: <a href"help@branexponents.com">help@branexponents.com</a></p>
-					
-					<ul class="list-inline">
-						<li class="list-inline-item"> <a href="#"><i class="fab fa-facebook-f"></i></a> </li>
-						<li class="list-inline-item"> <a href="#"><i class="fab fa-twitter"></i></a> </li>
-						<li class="list-inline-item"> <a href="#"><i class="fab fa-instagram"></i></a></li>
-					</ul>
-					</article>
-				
-				<article class="col-md-6 col-sm-6-12">
-					<form>
-						<div class="row">
-							<div class="form-group col-md-6 col-sm-6-12">
-								<input type="text" name="name" id="class" class="form-control" placeholder="Name">
-								</input>
-							</div>
-						
-								<div class="form-group col-md-6 col-sm-6-12">
-								<input type="text" name="name" id="class" class="form-control" placeholder="Message">
-								</input>
-						</div>
-					</div>
-					<div class="form-group">
-								<textarea type="message" name="message" id="class" class="form-control" placeholder="Message" rows="10"> </textarea>
-						</div>
-				<div class="form-group">
-								<button type="submit" name="submit" id="class" class="btn btn-primary btn-block">Submit </button>
-					</div>
-					</form>
-			</article>
-			</div>
+		
 		</div>
-			
-	
-			
-	
-	</div>
 	</section>
+	
 	
 	
 
@@ -332,7 +317,7 @@
 				}
 			});
 			
-			$('#nav').onePageNav({
+			$('#navbar').onePageNav({
 				currentClass: 'active',
 				scrollSpeed: 1000,
 				easing: 'easeOutQuad'
@@ -343,17 +328,13 @@
 		});
 	</script>
 	
-	
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-144837219-1"></script>
-<script>
+	<script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'UA-144837219-1');
 </script>
-
 </body>
 
 </html>
